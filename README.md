@@ -85,16 +85,20 @@ Vous ne serez jamais lâché·es seul·es face à la technique : les cours arriv
 - Cahier des charges + backlog (Notion / Trello).
 - Registre des risques (éthique, RGPD, environnement, société).
 - Documentation technique + **schéma OLAP** (modèle en étoile) de la base.
+
+  
 **Livrables individuels (chaque membre)**
  
 - **Votre script de collecte / extraction** (pour la ou les source(s) dont vous êtes responsable).
-- - **Pipeline ELT unifié** : intégration de toutes les sources → BigQuery + dbt, automatisé.
+- **Pipeline ELT unifié** : intégration de toutes les sources → BigQuery + dbt, automatisé.
 - Votre analyse exploratoire (stats descriptives, valeurs anormales traitées).
 - **Votre dashboard BI** (Power BI ou Looker, accessible WCAG).
 - **Votre modèle de ML** (scikit-learn) + évaluation par métriques.
 - **Votre application Streamlit** exposant le modèle.
 - Votre page perso (journal de contributions et de décisions).
 - Votre participation à la soutenance.
+
+  
 ## Méthodologie & bonnes pratiques
  
 - Avancez en **Agile** : backlog, user stories, kanban, points d'étape réguliers.
