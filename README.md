@@ -1,7 +1,7 @@
 ## Introduction et Contexte
 
 <p style="text-align: center;">
-  <img src="header.jpg" alt="header">
+  <img src="header.jpg" alt="header" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto;">
 </p>
 
 Bienvenue dans **Wild Data Hub** : une vraie aventure dans le monde de la donnée ! Pendant les prochaines semaines, vous allez construire **de A à Z votre propre application d'analyse de données**, de la collecte jusqu'à la restitution devant un public.
