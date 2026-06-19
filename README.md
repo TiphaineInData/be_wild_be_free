@@ -1,6 +1,8 @@
 ## Introduction et Contexte
 
-![header](header.jpg){: .mx-auto .d-block}
+<p style="text-align: center;">
+  <img src="header.jpg" alt="header">
+</p>
 
 Bienvenue dans **Wild Data Hub** : une vraie aventure dans le monde de la donnée ! Pendant les prochaines semaines, vous allez construire **de A à Z votre propre application d'analyse de données**, de la collecte jusqu'à la restitution devant un public.
 
