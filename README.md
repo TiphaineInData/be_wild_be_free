@@ -111,16 +111,16 @@ Vous ne serez jamais lâché·es seul·es face à la technique : les cours arriv
 
 ⚠️ **Ce ne sont que des points de départ.** Les APIs ci-dessous n'ont **pas été testées** : à vous de vérifier qu'elles fonctionnent, de définir votre problématique et de vous casser la tête sur l'angle. Vous restez libres de partir sur tout autre sujet.
 
-**Piste A — WildSearchFood** *(analyse et recherche de restaurants)*
-Idées de données : API Foursquare (pour les restos, géolocalisation et micro-avis "Tips") + Dataset officiel Alim'confiance sur Data.gouv.fr (historique des contrôles sanitaires des restaurants).
-
-Exemples d'analyses : Cartographie des bons/mauvais élèves de l'hygiène par quartier, corrélation entre le prix d'un restaurant et son niveau sanitaire.
-
-ML possible : Analyse de sentiment (NLP) sur les commentaires Foursquare pour détecter des mots-clés précurseurs d'un problème d'hygiène (ex: "propreté", "frais", "malade").
+**Piste A — WildFuelAnalytics** *(analyse des prix des carburants et concurrence)*
+Idées de données : API officielle des prix des carburants en France (disponible en temps réel sur data.gouv.fr ou via l'API dynamic-fuel) + API OpenStreetMap/Overpass (pour calculer les distances avec les stations concurrentes et la densité urbaine).
+Exemples d'analyses : Cartographie dynamique des prix des carburants, analyse des marges et de la guerre des prix selon la proximité des stations concurrentes (ex: Total vs Leclerc), impact des axes routiers (autoroutes vs nationales) sur les tarifs pratiqués.
+Machine Learning (ML) : Modèle de régression pour prédire le prix au litre d'une station en fonction de ses concurrents locaux, de sa marque, de son emplacement géographique et du cours du pétrole.
 
 
 **Piste B — WildFindJob** *(analyse du marché de l'emploi dans la data)*
-Idées de données : APIs d'offres d'emploi + web scraping. Exemples d'analyses : tendances des offres, compétences les plus demandées, géographie de l'emploi. ML possible : recommandation d'offres, détection de tendances.
+Idées de données : APIs d'offres d'emploi + web scraping. 
+Exemples d'analyses : tendances des offres, compétences les plus demandées, géographie de l'emploi. 
+ML possible : recommandation d'offres, détection de tendances.
 
 ## Ressources
 
