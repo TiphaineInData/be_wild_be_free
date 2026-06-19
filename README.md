@@ -1,9 +1,3 @@
----
-title: Wild Data Hub
-description: ' '
-layout: default
----
-
 ## Introduction et Contexte
 
 ![header](header.jpg)
@@ -39,7 +33,7 @@ Le projet se déroule sur **7 semaines actives**, suivies de **2 semaines de pr�
 - **Sujet libre**, choisi par le groupe. Deux pistes vous sont proposées plus bas **si vous n'avez vraiment aucune idée** — mais ce ne sont que des idées d'API : à vous de creuser et de définir votre angle.
 - **Outils de suivi** : un espace **Notion ou Trello d'équipe** (backlog, kanban, cahier des charges, registre des risques, planning) **+ une page perso par membre** (votre code, votre dashboard, votre ML, votre journal de décisions).
 
-![architecture](assets/image/architecture.svg)
+![architecture](architecture.jpg)
 {: .text-center}
 
 ## Travailler en équipe : collectif ET individuel
