@@ -1,8 +1,7 @@
 ## Introduction et Contexte
 
-<div style="text-align: center;">
-  <img src="header.jpg" alt="header" style="display: inline-block; margin: 0 auto;">
-</div>
+![header](header.jpg)
+{: .text-center }
 
 Bienvenue dans **Wild Data Hub** : une vraie aventure dans le monde de la donnée ! Pendant les prochaines semaines, vous allez construire **de A à Z votre propre application d'analyse de données**, de la collecte jusqu'à la restitution devant un public.
 
