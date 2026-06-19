@@ -1,8 +1,6 @@
 ## Introduction et Contexte
 
-<center>
-  <img src="header.jpg" alt="header" style="max-width: 100%; height: auto;">
-</center>
+<div style="background-image: url('header.jpg'); background-repeat: no-repeat; background-position: center; background-size: contain; width: 100%; height: 300px;"></div>
 
 Bienvenue dans **Wild Data Hub** : une vraie aventure dans le monde de la donnée ! Pendant les prochaines semaines, vous allez construire **de A à Z votre propre application d'analyse de données**, de la collecte jusqu'à la restitution devant un public.
 
