@@ -23,13 +23,16 @@ La règle : Collecte obligatoire via une ou plusieurs APIs (Spotify, OpenWeather
 ## Objectifs Pédagogiques
 
 - Collecter des données à partir d'une ou plusieurs **APIs**.
-- Nettoyer, explorer et préparer les données avec **Python (pandas)**.
-- Concevoir un **pipeline de transformation moderne (ELT) avec dbt** et le **fiabiliser** (tests, modèles incrémentaux).
-- Stocker et **modéliser les données dans BigQuery** pour l'analyse (schéma en étoile / OLAP).
+- Charger les données **brutes (JSON) directement dans BigQuery** (zone *raw*), où le JSON devient lignes/colonnes (détection de schéma).
+- À chaque collecte hebdomadaire, **éviter les doublons** : un **hash (en Python) des colonnes clés** permet de n'ajouter que les nouvelles lignes.
+- Comprendre la distinction **data lake / data warehouse** (et pourquoi, à plus grande échelle, on déposerait d'abord les fichiers bruts dans un stockage objet comme GCS ou S3).
+- **Explorer** les données avec **Python (pandas)**, et **préparer en Python le jeu de données destiné au Machine Learning** (features).
+- **Transformer et modéliser** les données pour l'analyse en **schéma en étoile (OLAP)**, avec **dbt (ou du SQL)** — et fiabiliser avec quelques **tests**.
 - Construire des **tableaux de bord décisionnels accessibles** (Power BI ou Looker Studio).
 - Entraîner et évaluer un **modèle de Machine Learning** (scikit-learn).
 - Exposer le tout dans une **application Streamlit**.
-- Mener le projet en **méthodologie Agile**, en intégrant **veille, éthique, RGPD, AI Act, impacts environnementaux et sociétaux**.
+- Mener le projet en **méthodologie Agile** (Scrum Master tournant), en intégrant **veille, éthique, RGPD, AI Act, impacts environnementaux et sociétaux**
+![architecture](architecture.jpg)
 
 ## Organisation
 
@@ -39,7 +42,6 @@ Le projet se déroule sur **7 semaines actives**, suivies de **2 semaines de pr�
 - **Sujet libre**, choisi par le groupe. Deux pistes vous sont proposées plus bas **si vous n'avez vraiment aucune idée** — mais ce ne sont que des idées d'API : à vous de creuser et de définir votre angle.
 - **Outils de suivi** : un espace **Notion ou Trello d'équipe** (backlog, kanban, cahier des charges, registre des risques, planning) **+ une page perso par membre** (votre code, votre dashboard, votre ML, votre journal de décisions).
 
-![architecture](architecture.jpg)
 
 ## Travailler en équipe : collectif ET individuel
 
