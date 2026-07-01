@@ -56,9 +56,9 @@ Pourquoi ? Parce que la certification **évalue chacun·e individuellement**. On
 
 Vous avez **7 semaines de production** (S13 → S19), puis **2 semaines de préparation à la certification** (S20-S21). Voici ce que vous devez produire chaque semaine — côté projet et côté gestion de projet.
 
-| Semaine | Sur le projet (ce que vous produisez) | Gestion de projet |
+| Semaine | Cours étudiés| A la fin de la semaine vous devez avoir |
 |---|---|---|
-| **S13** · 3-7 août | Choix du sujet ; cadrage : problématique, objectifs et premiers KPIs, sources candidates | Constitution de l'équipe, kanban, premier backlog |
+| **S13** · 3-7 août | - Design thinking <br> GCP <br> Gestion de projet agile <br> Notion | Equipe constituée <br> Sources de données identifiées <br> Atelier design thiking terminé <br> Notion créé |
 | 10-14 août | — *(fermé)* | — |
 | 17-21 août | — *(fermé)* | — |
 | **S14** · 24-28 août | Sujet validé ; exploration des données (EDA) ; **script de collecte → données brutes envoyées dans BigQuery (raw)** | Ouverture du cahier des charges (sources, backlog) ; premiers risques (RGPD, biais du sujet) |
