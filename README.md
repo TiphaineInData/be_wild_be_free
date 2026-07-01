@@ -58,10 +58,10 @@ Vous avez **7 semaines de production** (S13 → S19), puis **2 semaines de prép
 
 | Semaine | Cours étudiés| A la fin de la semaine vous devez avoir |
 |---|---|---|
-| **S13** · 3-7 août | - Design thinking <br> GCP <br> Gestion de projet agile <br> Notion | Equipe constituée <br> Sources de données identifiées <br> Atelier design thiking terminé <br> Notion créé |
+| **S13** · 3-7 août | Design thinking <br> GCP <br> Gestion de projet agile <br> Notion | Equipe constituée <br> Sources de données identifiées <br> Atelier design thinking terminé <br> Notion créé |
 | 10-14 août | — *(fermé)* | — |
 | 17-21 août | — *(fermé)* | — |
-| **S14** · 24-28 août | Sujet validé ; exploration des données (EDA) ; **script de collecte → données brutes envoyées dans BigQuery (raw)** | Ouverture du cahier des charges (sources, backlog) ; premiers risques (RGPD, biais du sujet) |
+| **S14** · 24-28 août | DBT <br> Gestion des risques partie 1 <br> Cahier des charges|Exploration des données <br> Script et données chargées dans Bigquery <br> Atelier collectif : brainstorming gestion des risques RGPD |
 | **S15** · 31 août-4 sept | **Transformation dbt** (staging → marts) ; modèles incrémentaux (hash, partition / clustering) ; les **deux marts** (étoile pour la BI + table de features pour le ML) | Cahier des charges enrichi (archi, choix d'outils justifiés par la veille) ; backlog affiné |
 | **S16** · 7-11 sept | Finalisation + **automatisation du pipeline** (GitHub Actions) ; démarrage du **dashboard BI** | Risques techniques / environnementaux / sociétaux + positionnement **AI Act** ; revue de mi-projet |
 | **S17** · 14-18 sept | Nettoyage du code ; **dashboard BI** (un par personne), accessible | Pilotage (kanban, points d'étape) |
