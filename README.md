@@ -61,12 +61,12 @@ Vous avez **7 semaines de production** (S13 → S19), puis **2 semaines de prép
 | **S13** · 3-7 août | Design thinking <br> GCP <br> Gestion de projet agile <br> Notion | Equipe constituée <br> Sources de données identifiées <br> Atelier design thinking terminé <br> Notion créé |
 | 10-14 août | — *(fermé)* | — |
 | 17-21 août | — *(fermé)* | — |
-| **S14** · 24-28 août | DBT <br> Gestion des risques partie 1 <br> Cahier des charges|Exploration des données <br> Script et données chargées dans Bigquery <br> Atelier collectif : brainstorming gestion des risques RGPD |
+| **S14** · 24-28 août | DBT <br> Gestion des risques partie 1 <br> Cahier des charges|EDA terminée <br> Script et données chargées dans Bigquery <br> Atelier collectif (brainstorming gestion des risques RGPD) réalisé |
 | **S15** · 31 août-4 sept | Github Actions <br> Prefect <br> Docker | Script enrichi avec l'architecture OLAP - DBT |
-| **S16** · 7-11 sept | Clean code et refactorisation <br> Gestion des risques partie 2 | revue de mi-projet <br> Cahier des charges à jour <br> Notion à jour|
-| **S17** · 14-18 sept |Risques techniques / environnementaux / sociétaux + positionnement <br> AI Act | Code clean et automatisé via Github actions <br> Atelier collectif de gestion des risques mis à jour (sociétal, environnemental) | démarrage du **dashboard BI** |
-| **S18** · 21-25 sept | **Modèle de Machine Learning** (un par personne) + **application Streamlit** + hébergement du code | Pilotage |
-| **S19** · 28 sept-2 oct | Prépa démo ; **documentation** (schéma OLAP) ; **soutenance** | Synthèse finale des risques (mitigation, audit) ; recommandations |
+| **S16** · 7-11 sept | Clean code et refactorisation <br> Gestion des risques partie 2 |Script enrichi avec l'architecture OLAP - DBT, données à jour et exploitables dans GCP (fin) <br> Cahier des charges à jour <br> Notion à jour|
+| **S17** · 14-18 sept |Risques techniques / environnementaux / sociétaux + positionnement <br> AI Act | Code clean et automatisé via Github actions <br> Atelier collectif de gestion des risques mis à jour (sociétal, environnemental) <br> démarrage du dashboard BI |
+| **S18** · 21-25 sept | ML sur GCP ? (optionnel) | Registre des risques à jour <br> Dataset prêt pour exploitation ML <br> Dashboard terminé <br> démarrage ML|
+| **S19** · 28 sept-2 oct | ML dans dashboard ?  | Modèle ML exploitable, streamlit terminé <br> Prépa démo ; documentation (schéma OLAP) recommandations |
 | **S20** · 5-9 oct | Revue des livrables, **soutenance blanche** | Bilan et ajustements |
 | **S21** · 11-15 oct | Préparation finale à la certification | — |
 
