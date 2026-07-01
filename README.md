@@ -62,9 +62,9 @@ Vous avez **7 semaines de production** (S13 → S19), puis **2 semaines de prép
 | 10-14 août | — *(fermé)* | — |
 | 17-21 août | — *(fermé)* | — |
 | **S14** · 24-28 août | DBT <br> Gestion des risques partie 1 <br> Cahier des charges|Exploration des données <br> Script et données chargées dans Bigquery <br> Atelier collectif : brainstorming gestion des risques RGPD |
-| **S15** · 31 août-4 sept | **Transformation dbt** (staging → marts) ; modèles incrémentaux (hash, partition / clustering) ; les **deux marts** (étoile pour la BI + table de features pour le ML) | Cahier des charges enrichi (archi, choix d'outils justifiés par la veille) ; backlog affiné |
-| **S16** · 7-11 sept | Finalisation + **automatisation du pipeline** (GitHub Actions) ; démarrage du **dashboard BI** | Risques techniques / environnementaux / sociétaux + positionnement **AI Act** ; revue de mi-projet |
-| **S17** · 14-18 sept | Nettoyage du code ; **dashboard BI** (un par personne), accessible | Pilotage (kanban, points d'étape) |
+| **S15** · 31 août-4 sept | Github Actions <br> Prefect <br> Docker | Script enrichi avec l'architecture OLAP - DBT |
+| **S16** · 7-11 sept | Clean code et refactorisation <br> Gestion des risques partie 2 | revue de mi-projet <br> Cahier des charges à jour <br> Notion à jour|
+| **S17** · 14-18 sept |Risques techniques / environnementaux / sociétaux + positionnement <br> AI Act | Code clean et automatisé via Github actions <br> Atelier collectif de gestion des risques mis à jour (sociétal, environnemental) | démarrage du **dashboard BI** |
 | **S18** · 21-25 sept | **Modèle de Machine Learning** (un par personne) + **application Streamlit** + hébergement du code | Pilotage |
 | **S19** · 28 sept-2 oct | Prépa démo ; **documentation** (schéma OLAP) ; **soutenance** | Synthèse finale des risques (mitigation, audit) ; recommandations |
 | **S20** · 5-9 oct | Revue des livrables, **soutenance blanche** | Bilan et ajustements |
